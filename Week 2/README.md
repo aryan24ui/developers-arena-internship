@@ -1,39 +1,49 @@
-# Personal Portfolio Website
+# Week 2 - Styled Portfolio Website
 
 ## Project Overview
-This project is a simple personal portfolio website created using HTML5.
+This project is an enhanced version of my personal portfolio website created using HTML5 and CSS3. The website includes custom styling, responsive design, hover effects, and improved user interface.
+
+## Technologies Used
+- HTML5
+- CSS3
 
 ## Features
-- About Section
+- Responsive Design
+- External CSS Styling
+- Flexbox Layout
+- Custom Color Scheme
+- Hover Effects
+- Navigation Menu
+- Profile Image Section
 - Skills Section
-- Contact Form
-- Internal Navigation Links
-- Semantic HTML Structure
-- Profile Image
+- Contact Section
 
-## HTML Concepts Learned
-- HTML Document Structure
-- Semantic Tags
-- Forms
-- Images
-- Lists
-- Hyperlinks
-- Internal Navigation
+## CSS Concepts Implemented
+- CSS Selectors
+- Colors and Backgrounds
+- Typography Styling
+- Box Model
+- Flexbox
+- Hover Effects
+- Transitions
+- Media Queries
 
-## Project Structure
+## Folder Structure
 
-Week1/
-│
+Week 2/
 ├── index.html
+├── style.css
 ├── README.md
-└── images/
-    └── profile.jpg
+├── images/
+└── screenshots/
 
-## Setup Instructions
+## Screenshots
 
-1. Download the project files.
-2. Open index.html in any web browser.
-3. Navigate through sections using the navigation menu.
+Screenshots of the styled portfolio website are available in the screenshots folder.
 
-## Author
-Aryan
+## Learning Outcomes
+- Understanding CSS fundamentals
+- Creating responsive layouts
+- Using Flexbox for alignment
+- Implementing hover effects
+- Applying modern web design principles
