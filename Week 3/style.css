@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+section {
+  width: 80%;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+#about {
+  text-align: center;
+}
+
+#about img {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #1e3a8a;
+  margin: 20px 0;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  background: #dbeafe;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#skills li:hover {
+  background: #93c5fd;
+  transform: translateX(10px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+footer {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode section {
+  background: #1f2937;
+  color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background: #374151;
+  color: white;
+  border: none;
+}
+
+.dark-mode #skills li {
+  background: #374151;
+}
+
+#greeting {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 95%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #about img {
+    width: 150px;
+  }
+}

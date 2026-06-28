@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Aryan</h1>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeBtn">🌙 Dark Mode</button>
+    <button id="toggleAbout">Hide About</button>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <img src="images/IMG_20250414_120007.jpg" alt="Aryan Profile Picture">
+
+      <p>
+        Hello! My name is Aryan. I am a B.Tech 3rd Year
+        Computer Science Engineering (AI) student who is
+        passionate about Web Development, Artificial
+        Intelligence and Problem Solving.
+      </p>
+
+      <p id="greeting"></p>
+    </section>
+
+    <section id="skills">
+      <h2>
+        Skills (<span id="skillCount"></span>)
+      </h2>
+
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form>
+
+        <label>Name</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <label>Message</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">
+          Send Message
+        </button>
+
+        <p id="formMessage"></p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Aryan Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
